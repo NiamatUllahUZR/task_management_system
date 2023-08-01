@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Replace 'fade-in' with the animation name you used in the component */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Create the 'animate-fade-in' class and apply the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out; /* You can adjust the animation duration and timing function as needed */
+}
+
+/* Replace 'zoomIn' with the animation name you used in the component */
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Create the 'animate-zoom-in' class and apply the animation */
+.animate-zoom-in {
+  animation: zoomIn 0.3s ease-in-out; /* You can adjust the animation duration and timing function as needed */
+}
+
+
+.hover:gradient:hover {
+  background: linear-gradient(to right, #6a00f4, #d100d1);
+}
+

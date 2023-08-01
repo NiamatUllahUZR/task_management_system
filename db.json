@@ -1,0 +1,136 @@
+{
+  "groups": [
+    {
+      "id": 2,
+      "name": "Group2",
+      "userIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "new Group",
+      "id": 3,
+      "userIds": [
+        1
+      ]
+    },
+    {
+      "name": "this new group",
+      "id": 4,
+      "userIds": [
+        1
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "john@example.com",
+      "password": "hashed_password",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "hashed_password",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "password": "hashed_password",
+      "role": "user"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task 1",
+      "description": "Description for Task 1",
+      "completed": true,
+      "userId": [
+        1
+      ],
+      "groupId": 1
+    },
+    {
+      "id": 2,
+      "title": "Task 2",
+      "description": "Description for Task 2",
+      "completed": true,
+      "userId": [
+        1
+      ],
+      "groupId": 1
+    },
+    {
+      "id": 3,
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "completed": true,
+      "userId": [
+        1
+      ],
+      "groupId": 2
+    },
+    {
+      "id": 4,
+      "title": "Task 4",
+      "description": "Description for Task 4",
+      "completed": false,
+      "userId": [
+        1
+      ],
+      "groupId": 1
+    },
+    {
+      "id": 5,
+      "title": "Task 5",
+      "description": "Description for Task 5",
+      "completed": false,
+      "userId": [
+        1
+      ],
+      "groupId": 2
+    },
+    {
+      "title": "new title",
+      "description": "new description",
+      "completed": false,
+      "userId": [
+        1,
+        2,
+        3
+      ],
+      "groupId": 2,
+      "id": 6
+    },
+    {
+      "title": "hello g ",
+      "description": "hello h",
+      "completed": false,
+      "userId": [
+        1,
+        2,
+        3
+      ],
+      "groupId": 2,
+      "id": 7
+    },
+    {
+      "title": "this is new group",
+      "description": "group description",
+      "completed": false,
+      "userId": [
+        1
+      ],
+      "groupId": 3,
+      "id": 8
+    }
+  ]
+}
